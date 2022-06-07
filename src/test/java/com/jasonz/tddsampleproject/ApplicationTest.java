@@ -3,6 +3,7 @@ package com.jasonz.tddsampleproject;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import static org.junit.jupiter.api.Assertions.*;
 /**
  * reference:
  * https://www.youtube.com/watch?v=s9vt6UJiHg4
@@ -11,11 +12,12 @@ import org.springframework.boot.test.context.SpringBootTest;
  * https://www.youtube.com/watch?v=MRG6rm54lhA
  * https://www.youtube.com/watch?v=Hh17JDpsKqc
  */
-@SpringBootTest
-class ApplicationTests {
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+class ApplicationTest {
 
     @Test
-    void contextLoads() {
+    public void loadContext(){
+        System.out.println("lanch a spring boot application");
     }
 
 }
