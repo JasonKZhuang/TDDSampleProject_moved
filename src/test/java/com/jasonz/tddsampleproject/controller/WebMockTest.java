@@ -1,4 +1,4 @@
-package com.jasonz.tddsampleproject;
+package com.jasonz.tddsampleproject.controller;
 
 import com.jasonz.tddsampleproject.controller.GreetingController;
 import com.jasonz.tddsampleproject.service.GreetingService;

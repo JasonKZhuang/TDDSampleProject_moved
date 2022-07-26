@@ -1,4 +1,4 @@
-package com.jasonz.tddsampleproject;
+package com.jasonz.tddsampleproject.controller;
 
 import com.jasonz.tddsampleproject.controller.HomeController;
 import org.junit.jupiter.api.Test;
