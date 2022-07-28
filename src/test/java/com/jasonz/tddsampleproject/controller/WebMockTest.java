@@ -14,7 +14,11 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-
+/**
+ * We can narrow the tests to only the web layer by using @WebMvcTest
+ * In this test, Spring Boot instantiates only the web layer rather than the whole context.
+ * In an application with multiple controllers, you can even ask for only one to be instantiated by using HomeController.class
+ */
 @WebMvcTest(GreetingController.class)
 public class WebMockTest {
     @Autowired
