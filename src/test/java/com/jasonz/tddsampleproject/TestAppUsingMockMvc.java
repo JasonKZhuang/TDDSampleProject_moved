@@ -1,4 +1,4 @@
-package com.jasonz.tddsampleproject.controller;
+package com.jasonz.tddsampleproject;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
