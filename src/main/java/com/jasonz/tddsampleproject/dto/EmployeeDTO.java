@@ -7,10 +7,10 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 public class EmployeeDTO {
-    private int empId;
+    private Integer empId;
     private String firstName;
     private String lastName;
     private String email;
-    private int age;
+    private Integer age;
     private String comments;
 }

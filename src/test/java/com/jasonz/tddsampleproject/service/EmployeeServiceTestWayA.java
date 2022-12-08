@@ -12,10 +12,10 @@ import org.mockito.junit.jupiter.MockitoExtension;
  * we need to use MockitoExtention that automatically initializes all the objects annotated with @Mock and @InjectMocks annotations.
  */
 @ExtendWith(MockitoExtension.class)
-class EmployeeManagerTestWayA {
+class EmployeeServiceTestWayA {
 
     @InjectMocks
-    EmployeeManager manager;
+    EmployeeService manager;
 
     @Mock
     EmployeeDao dao;
